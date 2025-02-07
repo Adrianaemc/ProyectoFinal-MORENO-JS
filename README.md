@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Cotizador de Servicios Veterinarios
 
 Este es un proyecto de cotización de servicios veterinarios donde los usuarios pueden seleccionar varios servicios para sus mascotas, ver los costos y aplicar descuentos. La aplicación está desarrollada en JavaScript y utiliza **SweetAlert2** para las alertas visuales. Rama utilizada MAIN.
@@ -33,5 +33,3 @@ Este es un proyecto de cotización de servicios veterinarios donde los usuarios 
 
 Adriana Moreno
 =======
-# ProyectoFinal-MORENO-JS
->>>>>>> dbeb108cc26b770c02e9d9951c142cc1dcb10bea
