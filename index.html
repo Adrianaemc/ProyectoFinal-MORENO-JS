@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador de Servicios Veterinarios</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="./assets/img/mascotas_index.jpg" alt="mascotas">
+    </header>
+    <div class="container">
+        <h1>Clinica Veterinaria Mascotas</h1>
+        <h2>Cotiza tus Servicios Veterinarios</h2>
+
+        <form class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre del solicitante:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+
+            <div id="servicios"></div>
+
+            <div class="campo">
+                <label for="descuento">Descuento:</label>
+                <select id="descuento">
+                    <option value="0">Ninguno</option>
+                    <option value="10">10% de descuento</option>
+                    <option value="20">20% de descuento</option>
+                </select>
+            </div>
+
+            <div class="acciones">
+                <button type="button" id="finalizar">Calcular</button>
+                <button type="button" id="nueva-cotizacion">Nueva Cotización</button>
+            </div>
+        </form>
+
+        <div id="contenedor-servicios"></div>
+
+        <div id="mensaje"></div>
+        <div id="resultado"></div>
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/utils/storage.js"></script>
+    <script type="module" src="./scripts/constantes.js"></script>
+
+</body>
+
+</html>

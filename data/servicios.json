@@ -1,0 +1,22 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Consulta General",
+            "descripcion": "Revisión general de salud para tu mascota.",
+            "precio": 20000
+        },
+        {
+            "id": 2,
+            "nombre": "Vacunación",
+            "descripcion": "Vacunas necesarias para tu mascota.",
+            "precio": 19000
+        },
+        {
+            "id": 3,
+            "nombre": "Catraciones",
+            "descripcion": "Castraciones a Perros y gatos hasta los 6 años",
+            "precio": 300000
+        }
+    ]
+}

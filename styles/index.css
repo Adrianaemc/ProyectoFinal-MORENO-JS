@@ -1,0 +1,125 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+p {
+    text-align: center;
+    color: #4c7faf;
+}
+
+header img {
+    width: 60%;
+    /* Tamaño reducido de la imagen */
+    max-width: 300px;
+    /* Establecer un límite máximo para que no se haga demasiado pequeña */
+    display: block;
+    margin: 0 auto 20px;
+    /* Centrado horizontal */
+    border-radius: 8px;
+}
+
+/* Estilo del formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #475ca1;
+}
+
+button {
+    background-color: #438ecc;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #22349c;
+}
+
+.acciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Resultados - Estilo más moderno y elegante */
+#resultado {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Sombra más suave */
+    color: #4555ec;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+
+    /* Centrado del contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Alinea los elementos hijos al centro */
+    justify-content: center;
+    /* Asegura que el contenido se centra en el eje vertical */
+    text-align: center;
+    /* Alinea el texto al centro */
+    width: 100%;
+    /* Asegura que ocupe todo el ancho disponible */
+}
+
+/* Animación para los botones de cotización */
+button {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
